@@ -1,0 +1,94 @@
+body{
+	background: powderblue;
+	color: darkblue;
+	cursor: url(mirasus.png), crosshair;
+	background-image: linear-gradient(to bottom, #2261be, #3d80ce, #609edb, #88bce7, #b3d9f2);
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('pixel.woff') format('woff');
+}
+
+h1{
+	font-family: 'MyFont';
+	text-align: center;
+	font-size: 500%;
+	color: #47C9F4;
+	letter-spacing: 50px;
+}
+
+#intro{
+	background: lightskyblue;
+	font-family: 'MyFont';
+	color: darkblue;
+	text-align: center;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 300%;
+	word-spacing: 30px;
+	border: 12px inset darkblue;
+	border-radius: 30px;
+	padding: 5px 5px 5px 5px;
+	margin: 50px auto;
+/*	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);*/
+}
+
+
+
+#intro:first-line{
+	word-spacing: 230px;
+}
+
+
+.header{
+	font-variant: small-caps;
+}
+
+#skills{
+	background: #D6DEF4;
+	font-family: 'MyFont';
+	border: 12px outset lightskyblue;
+	border-radius: 20px;
+	padding: 10px 5px 20px 20px;
+	margin: 30px auto;
+}
+
+#shamira{
+	background: #D6DEF4;
+	font-family: 'MyFont';
+	border: 12px outset lightskyblue;
+	border-radius: 20px;
+	padding: 10px 5px 20px 20px;
+	margin: 30px auto;
+}
+
+
+#name{
+	background: #F8C6C6;
+	border: 12px inset darkred;
+	padding: 20px 20px 20px 20px;
+	border-radius: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: -10px;
+	right: 0px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  border: 20px inset darkblue;
+  border-radius: 20px;
+}
+
+ol{
+	list-style-type: bengali;
+	font-family: sans-serif;
+}
+
+ul {
+	list-style: arabic-indic;
+	font-family: sans-serif;
+}
